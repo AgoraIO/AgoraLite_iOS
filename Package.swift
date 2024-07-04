@@ -7,38 +7,40 @@ let package = Package(
     defaultLocalization: "en",
     platforms: [.iOS(.v9)],
     products: [
-        .library(name: "AgoraRtcKit", targets: ["AgoraSoundTouch.xcframework", "aosl.xcframework", "Agoraffmpeg.xcframework", "AgoraRtcKit.xcframework", "video_dec.xcframework", "AgoraVideoDecoderExtension.xcframework"]),
+        .library(name: "Basic", targets: ["aosl"]),
+        .library(name: "RtcBasic", targets: ["AgoraRtcKit", "Agoraffmpeg", "AgoraSoundTouch"]),
+        .library(name: "VideoCodecDec", targets: ["AgoraVideoDecoderExtension", "video_dec"]),
     ],
     targets: [
         .binaryTarget(
             name: "AgoraSoundTouch",
-            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.101/AgoraSoundTouch.xcframework.zip",
-            checksum: "4b582a42b4ba8ca77f816dda520a59d9bc047c44285c048760de0d4f64b9f768"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.102/AgoraSoundTouch.xcframework.zip",
+            checksum: "2886aedd350930c951f004d964b1734f9cdc413c98b8c123a196d8205f5ba5b6"
         ),
         .binaryTarget(
             name: "aosl",
-            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.101/aosl.xcframework.zip",
-            checksum: "2069b5a8abd75323a96aea761bcbd24f455fd85fb09e516a09db4af41880ff28"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.102/aosl.xcframework.zip",
+            checksum: "1f0a3abb5082f49305bdc8765e0b9de339c7e195b441912041e148443c22542c"
         ),
         .binaryTarget(
             name: "Agoraffmpeg",
-            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.101/Agoraffmpeg.xcframework.zip",
-            checksum: "53fc0320cad37753ec324cb59c7baa5a5c03ebdf983ba129b523271d173832f6"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.102/Agoraffmpeg.xcframework.zip",
+            checksum: "0ecdc316d66f5b8979c5f8cb5e113cd101956351e117cae22cc28694dc6d7ac0"
         ),
         .binaryTarget(
             name: "AgoraRtcKit",
-            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.101/AgoraRtcKit.xcframework.zip",
-            checksum: "55c80d1ac27be7021739d168aa746dae922fa26aa94a4abc91cd8c8085caf9a1"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.102/AgoraRtcKit.xcframework.zip",
+            checksum: "9eb3f456f1aadceda0a5c26ff55a044eef234983c1b98f7fb980fcdb757aeaff"
         ),
         .binaryTarget(
             name: "video_dec",
-            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.101/video_dec.xcframework.zip",
-            checksum: "31c7d65f6d9293f0be2f4bf12e2ae980926d17fe44505560c2736fc8b89ec9e8"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.102/video_dec.xcframework.zip",
+            checksum: "8c893ec048e074f0a21655c23078227b731ae55f05badfc6036b1a7031ef307d"
         ),
         .binaryTarget(
             name: "AgoraVideoDecoderExtension",
-            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.101/AgoraVideoDecoderExtension.xcframework.zip",
-            checksum: "cfe5505b920c8940211598de513cec952efaaae4fe2d37da2b1536a56eb7b1e3"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/0.0.102/AgoraVideoDecoderExtension.xcframework.zip",
+            checksum: "d17934733e3b561f4c473a274e25f8a412725b8de4c5c5351344f8868fe291be"
         ),
     ]
 )
