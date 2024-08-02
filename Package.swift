@@ -1,5 +1,4 @@
 // swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 import PackageDescription
 
 let package = Package(
@@ -7,7 +6,8 @@ let package = Package(
     defaultLocalization: "en",
     platforms: [.iOS(.v9)],
     products: [
-        .library(name: "AgoraRtcKit", targets: ["AgoraSoundTouch.xcframework", "aosl.xcframework", "Agoraffmpeg.xcframework", "AgoraRtcKit.xcframework", "video_dec.xcframework", "AgoraVideoDecoderExtension.xcframework"]),
+        .library(name: "RtcBasic", targets: ["AgoraRtcKit", "aosl", "Agoraffmpeg", "AgoraSoundTouch"]),
+        .library(name: "VideoCodecDec", targets: ["AgoraVideoDecoderExtension", "video_dec"])
     ],
     targets: [
         .binaryTarget(
@@ -39,6 +39,6 @@ let package = Package(
             name: "AgoraVideoDecoderExtension",
             url: "https://download.agora.io/swiftpm/AgoraLite_iOS/4.4.0.test/AgoraVideoDecoderExtension.xcframework.zip",
             checksum: "ff47caf7dca1ef2c73e6a5914d844932b249f4b412eeb4f5a1b51e30dff05ad9"
-        ),
+        )
     ]
 )
