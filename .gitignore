@@ -5,5 +5,6 @@
 .swiftpm/
 xcuserdata/
 xcshareddata/
-*.xcframework
-*.xcframework.zip
+docc_builder
+*.xcframework*
+docc/
