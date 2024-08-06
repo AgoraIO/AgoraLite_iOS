@@ -4,7 +4,7 @@
   <a href="https://docs.agora.io/en/video-calling/overview/product-overview?platform=ios">
     <img src="https://img.shields.io/badge/Documentation-View-F05138?logo=swift"/>
   </a>
-  <a href="https://api-ref.agora.io/en/video-sdk/ios/4.x/documentation/agorartckit">
+  <a href="https://api-ref.agora.io/en/lite-sdk/ios/4.x/documentation/agorartckit">
     <img src="https://img.shields.io/badge/API%20Reference-View-F05138?logo=swift"/>
   </a>
   <a href="https://agora-ticket.agora.io">
@@ -23,6 +23,8 @@
 Welcome to the Agora Swift Lite SDK! This package allows you to integrate powerful video capabilities into your iOS applications. You have the flexibility to choose from a variety of extensions to enhance your video communication experience.
 
 For a complete understanding of how to use the SDK and its various extensions, please refer to the [full documentation](https://docs.agora.io/en/video-calling/overview/product-overview?platform=ios).
+
+![](media/swiftpm-agora.png)
 
 ## Installation
 
@@ -49,4 +51,3 @@ Otherwise [create a ticket](https://agora-ticket.agora.io) and our support team 
 ---
 
 Feel free to explore and utilize the wide range of features provided by the Agora Swift Lite SDK to create immersive and engaging video experiences in your application!
-
