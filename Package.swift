@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "VideoCodecDec", targets: ["AgoraVideoDecoderExtension", "video_dec"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/AgoraIO/AgoraInfra_iOS.git", .exact("0.0.16-test"))
+        .package(url: "https://github.com/AgoraIO/AgoraInfra_iOS.git", exact:"0.0.16-test")
     ],
     targets: [
         .binaryTarget(
