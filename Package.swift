@@ -17,28 +17,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AgoraRtcKit",
-            url: "https://download.agora.io/swiftpm/AgoraRtcKit-4.6.0.TEST1.zip",
-            checksum: "f261d48cd7488e5c6cc70ca3b23de4f5c96f842abf1538d1133b57c4cad6ede6"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/4.6.0.TEST1/AgoraRtcKit.xcframework.zip",
+            checksum: "b13fcd15099beccf5ff980b4d63ea62d2c10b9d2d15e2c03dd70de03200582f1"
         ),
         .binaryTarget(
             name: "Agoraffmpeg",
-            url: "https://download.agora.io/swiftpm/Agoraffmpeg-4.6.0.TEST1.zip",
-            checksum: "f370d7e97c97d9a3f3167a085191cb1a19b804ba4a5dd0eb8825b4d091c9c627"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/4.6.0.TEST1/Agoraffmpeg.xcframework.zip",
+            checksum: "c4e8ba889dbbfc4fc01971c3aff4f4ce918bc92b9ab3892ff92fc40693d48f47"
         ),
         .binaryTarget(
             name: "AgoraSoundTouch",
-            url: "https://download.agora.io/swiftpm/AgoraSoundTouch-4.6.0.TEST1.zip",
-            checksum: "e2f7272d2c9117f38afa6d9daaaf0dde5db3183e7ab3a94a0736cba5417f063e"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/4.6.0.TEST1/AgoraSoundTouch.xcframework.zip",
+            checksum: "f95e6483086978e8ff1de8a3262efbdf207a20cc34ecdbf30d4b581c27fa6c43"
         ),
         .binaryTarget(
             name: "AgoraVideoDecoderExtension",
-            url: "https://download.agora.io/swiftpm/AgoraVideoDecoderExtension-4.6.0.TEST1.zip",
-            checksum: "3ddc184929f6af2eb24cf94f194538170d88c3a9c9da406e217c280aad30c008"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/4.6.0.TEST1/AgoraVideoDecoderExtension.xcframework.zip",
+            checksum: "2dba447801d08d7e96cd62c92764d21ed7655a29f7cb3f0fa2871931bc8b4b9e"
         ),
         .binaryTarget(
             name: "video_dec",
-            url: "https://download.agora.io/swiftpm/video_dec-4.6.0.TEST1.zip",
-            checksum: "1398ee706554a88feba9ae9564e9ebf84bfcd50562228a7becdd616e59f4dc4e"
+            url: "https://download.agora.io/swiftpm/AgoraLite_iOS/4.6.0.TEST1/video_dec.xcframework.zip",
+            checksum: "c3c9f9f72e69c3f87a8d5f0b09e6d0968fe39c600c66187c1803e6f76fc0ed6c"
         ),
         .target(
             name: "AgoraInfra_iOS",
